@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repostería</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    <header>
+        <a href="./html/admin.html">Admin</a></td>
+        <a href="./index.html">Usuario</a>
+    	<table>
+            <tr>
+               <td><img src="./images/logo.png" alt="logo reposteria" width="250" height="250"></td>
+               <td><h1>¡Los mejores pasteles de la ciudad!</h1></td>          
+            </tr>
+        </table>
+    </header>
+    <hr>
+    <section>
+        <h2>Catálogo de Pasteles:</h2>
+        <h3>Sabores:</h3>
+        <ul>
+            <li>Pastel de vainilla...................... USD 10</li>
+            <li>Pastel de chocolate................... USD 15</li>
+            <li>Pastel de red velvet................... USD 13</li>
+        </ul>
+        <h3>Adornos:</h3>
+        <ul>
+            <li>Merengue.................................. USD 10</li>
+            <li>Crema de avellanas................... USD 20</li>
+            <li>Fondant..................................... USD 15</li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h2>Ordena tu pedido:</h2>
+        <form action="/action.js" id="form1" method="post">
+            <table>
+                <tr>
+                    <th><label for="Nombre">Nombre:</label></th>
+                    <td><input type="text" id="nombre1" name="nombre1"></td>
+                </tr>
+                <tr>
+                    <th><label for="Telefono">Teléfono:</label></th>
+                    <td><input type="tel" id="tel1" name="tel1" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <th><label for="Email">Email:</label></th>
+                    <td><input type="email" id="email1" name="email1"></td>
+                </tr>
+                <tr>
+                    <th><label for="Descripcion">Descripción general del pastel:</label></th>
+                    <td><input type="text" id="descripcion1" name="descripcion1"></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <h3>Seleccion de sabores:</h3>
+            <table>
+                <tr>
+                    <td><label for="Vainilla">Vainilla</label></td>
+                    <td><input type="checkbox" id="vainilla" name="vainilla" value="vainilla"></td>
+                </tr>
+                <tr>
+                    <td><label for="Chocolate">Chocolate</label></td>
+                    <td><input type="checkbox" id="chocolate" name="chocolate" value="chocolate"></td>
+                </tr>
+                <tr>
+                    <td><label for="Vainilla">Red Velvet</label></td>
+                    <td><input type="checkbox" id="redvelvet" name="redvelvet" value="redvelvet"></td>
+                </tr>
+            </table>
+            
+            <h3>Seleccion de adornos:</h3>
+            <table>
+                <tr>
+                    <td><label for="Merengue">Merengue</label></td>
+                    <td><input type="checkbox" id="merengue" name="merengue" value="merengue"></td>
+                </tr>
+                <tr>
+                    <td><label for="Avellanas">Crema de Avellanas</label></td>
+                    <td><input type="checkbox" id="avellanas" name="avellanas" value="avellanas"></td>
+                </tr>
+                <tr>
+                    <td><label for="Fondant">Fondant</label></td>
+                    <td><input type="checkbox" id="fondant" name="fondant" value="fondant"></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset"><br><br>
+        </form>
+    </section>
+    <hr>
+    <section>
+        <h2>Ubicación</h2>
+            <table>
+                <tr>
+                    <th>Sucursal</th>
+                    <th>Dirección</th>
+                    <th>Teléfonos</th>
+                    <th>Horarios</th>
+                </tr>
+                <tr>
+                    <td><b>Centro</b></td>
+                    <td><a href="https://goo.gl/maps/fSPaVk5r72qDDVWZ8" target="_blank">Lorenzo Boturini 232-B, Tránsito</a></td>
+                    <td>+52 55 1111 2222</td>
+                    <td>Lunes a Domingo 8AM - 6PM</td>
+                </tr>
+                <tr>
+                    <td><b>Sur</b></td>
+                    <td><a href="https://goo.gl/maps/g4jSKY34oDMsEJzQ7" target="_blank">C. Puente 186, Coapa, Amsa</a></td>
+                    <td>+52 55 4444 3333</td>
+                    <td>Lunes a Domingo 8AM - 6PM</td>
+                </tr>
+            </table>
+    </section>
+</body>
+<footer>
+    <br><hr>
+    <p>&copy; <a href="https://github.com/chrisscr04">ChrisSCR04</a> - Launch X</p>
+</footer>
